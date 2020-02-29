@@ -31,57 +31,57 @@ public class Auction {
         return id;
     }
 
-/*    public void setId(int id) {
+    public void setId(int id) {
         this.id = id;
-    }*/
+    }
 
     public String getItem() {
         return item;
     }
 
-/*    public void setItem(String item) {
+    public void setItem(String item) {
         this.item = item;
-    }*/
+    }
 
     public String getDescription() {
         return description;
     }
 
-/*    public void setDescription(String description) {
+    public void setDescription(String description) {
         this.description = description;
-    }*/
+    }
 
     public LocalDateTime getDueDate() {
         return dueDate;
     }
 
-/*    public void setDueDate(LocalDateTime dueDate) {
+    public void setDueDate(LocalDateTime dueDate) {
         this.dueDate = dueDate;
-    }*/
+    }
 
     public Customer getSeller() {
         return seller;
     }
 
-/*    public void setSeller(Customer seller) {
+    public void setSeller(Customer seller) {
         this.seller = seller;
-    }*/
+    }
 
     public double getHighestBid() {
         return highestBid;
     }
 
-/*    public void setHighestBid(double highestBid) {
+    public void setHighestBid(double highestBid) {
         this.highestBid = highestBid;
-    }*/
+    }
 
     public Customer getBuyer() {
         return buyer;
     }
 
-/*    public void setBuyer(Customer buyer) {
+    public void setBuyer(Customer buyer) {
         this.buyer = buyer;
-    }*/
+    }
 
     public static AuctionBuilder builder() {
         return new AuctionBuilder();
